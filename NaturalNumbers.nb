@@ -1,0 +1,45 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[       951,         35]
+NotebookOptionsPosition[       560,         21]
+NotebookOutlinePosition[      1090,         38]
+CellTagsIndexPosition[      1047,         35]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+},
+WindowSize->{701, 810},
+WindowMargins->{{28, Automatic}, {Automatic, 36}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (March 5, 2013)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "pacoj", 
+   "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
+   "StyleSheets"}, "Default_Paco.nb", CharacterEncoding -> "WindowsANSI"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+}
+]
+*)
+
+(* End of internal cache information *)
+
