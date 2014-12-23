@@ -11,6 +11,7 @@ Zero::usage= "Zero represents the first natural number (zero) in the Peano axiom
 Successor::usage= "Successor[NaturalNumber[n]] represents of the successor of NaturalNumber[n] in the sense of the Peano axioms"
 Predecessor::usage= "Inverse relationship to successor (Predecessor[Zero] is Undefined)"
 Add::usage= "Represents two-argument addtion for conceptual natural numbers"
+Multiply::usage= "Represents two-argument multiplication for conceptual natural numbers"
 NaturalNumber::usage= "NaturalNumber[n_Integer] is the representation of the natural number n in the conceptual reformulation"
 $NaturalNumbersUseRealization::usage= "If True, use the NaturalNumbers datatype as a concrete normal-form representation.  Otherwise, use abstract Successor[Successor[...Zero]] forms"
 
@@ -25,15 +26,17 @@ Predecessor[Undefined]:= Undefined
 Successor[Predecessor[n:Except[Zero]]]:= n
 Predecessor[Successor[n_]]:= n
 
+(* Choose abstract or concrete representation *)
 NNpattern::usage= "A pattern used to define arithmetic in this package which changes based on value of $NaturalNumbersUseRealization"
 If[$NaturalNumbersUseRealization, NNpattern=NaturalNumber[_Integer], NNpattern=_] 
+
 (* Representation-independent defintion of Addition of natural numbers *)
 Add[n: NNpattern, Zero]:= n
 Add[n: NNpattern, m: NNpattern]:= Successor[ Add[n, Predecessor[m]] ]
 
 (* Representation-independent defintion of Multiplication of natural numbers *)
-(*Add[n: NNPattern, Zero]:= n
-Add[n: NNPattern, m: NNPattern]:= Successor[ Add[n, Predecessor[m]] ]*)
+Multiply[n_, Zero]:= Zero
+Multiply[n_, m_]:= Add[Multiply[n, Predecessor[m]], n]
 
 (* Realization of conceptual natural numbers through an abstract "NaturalNumbers" datatype *)
 If[$NaturalNumbersUseRealization, 
