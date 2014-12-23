@@ -12,6 +12,7 @@ Successor::usage= "Successor[NaturalNumber[n]] represents of the successor of Na
 Predecessor::usage= "Inverse relationship to successor (Predecessor[Zero] is Undefined)"
 Add::usage= "Represents two-argument addtion for conceptual natural numbers"
 Multiply::usage= "Represents two-argument multiplication for conceptual natural numbers"
+Exponentiate::usage= "Represents exponentiation for conceptual natural numbers"
 NaturalNumber::usage= "NaturalNumber[n_Integer] is the representation of the natural number n in the conceptual reformulation"
 $NaturalNumbersUseRealization::usage= "If True, use the NaturalNumbers datatype as a concrete normal-form representation.  Otherwise, use abstract Successor[Successor[...Zero]] forms"
 
@@ -37,6 +38,10 @@ Add[n: NNpattern, m: NNpattern]:= Successor[ Add[n, Predecessor[m]] ]
 (* Representation-independent defintion of Multiplication of natural numbers *)
 Multiply[n_, Zero]:= Zero
 Multiply[n_, m_]:= Add[Multiply[n, Predecessor[m]], n]
+
+(* Representation-independent defintion of Exponentiation of natural numbers *)
+Exponentiate[n_, Zero]:= Successor[Zero]
+Exponentiate[n_, m_]:= Multiply[Exponentiate[n, Predecessor[m]], n]
 
 (* Realization of conceptual natural numbers through an abstract "NaturalNumbers" datatype *)
 If[$NaturalNumbersUseRealization, 
