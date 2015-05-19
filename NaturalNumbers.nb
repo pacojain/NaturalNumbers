@@ -10,14 +10,19 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     10009,        254]
-NotebookOptionsPosition[      8753,        209]
-NotebookOutlinePosition[      9313,        227]
-CellTagsIndexPosition[      9270,        224]
+NotebookDataLength[     63554,       1429]
+NotebookOptionsPosition[     60399,       1315]
+NotebookOutlinePosition[     60981,       1334]
+CellTagsIndexPosition[     60938,       1331]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell["Initialization", "Section",
+ CellChangeTimes->{{3.6409921533132334`*^9, 3.640992156197398*^9}}],
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"Remove", "[", 
@@ -40,7 +45,15 @@ Cell[BoxData[{
    3.635259263803505*^9, 3.635259266048505*^9}, {3.635259561508505*^9, 
    3.635259563138505*^9}, {3.635259610388505*^9, 3.6352596121585045`*^9}, {
    3.6352601470975046`*^9, 3.635260158087505*^9}, {3.635260880150815*^9, 
-   3.6352608817307673`*^9}, 3.6352609197696266`*^9, 3.6352633826606045`*^9}],
+   3.6352608817307673`*^9}, 3.6352609197696266`*^9, 3.6352633826606045`*^9, {
+   3.6409896679940815`*^9, 3.640989674408448*^9}, {3.6409903594686313`*^9, 
+   3.6409903622997932`*^9}, {3.6409922236362553`*^9, 3.6409922395301647`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test basic arithmetic", "Section",
+ CellChangeTimes->{{3.6409921645268745`*^9, 3.6409921712272577`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -76,7 +89,8 @@ Cell[BoxData[
    3.635261986298205*^9, {3.6352625664998045`*^9, 3.6352625873846045`*^9}, {
    3.635262677970205*^9, 3.6352626921662045`*^9}, 3.635263050608405*^9, {
    3.635263089281605*^9, 3.635263109811205*^9}, 3.6352631514008045`*^9, 
-   3.635263392475805*^9}]
+   3.635263392475805*^9, 3.6409895187455444`*^9, 3.640989677750639*^9, 
+   3.640990365416971*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -87,7 +101,9 @@ Cell[BoxData[
    RowBox[{"NaturalNumber", "[", "2", "]"}], ",", 
    RowBox[{"NaturalNumber", "[", "3", "]"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.6282989384824286`*^9, 3.6282989536300554`*^9}, {
-  3.628304464808563*^9, 3.6283044700501723`*^9}}],
+   3.628304464808563*^9, 3.6283044700501723`*^9}, {3.6409898396048965`*^9, 
+   3.640989853694702*^9}, {3.640989891483864*^9, 3.6409899904485245`*^9}, 
+   3.64099034965807*^9}],
 
 Cell[BoxData[
  RowBox[{"NaturalNumber", "[", "5", "]"}]], "Output",
@@ -104,7 +120,10 @@ Cell[BoxData[
    3.635262500838205*^9, 3.635262508702605*^9}, {3.6352625628770046`*^9, 
    3.635262589677805*^9}, {3.635262680481805*^9, 3.635262695395405*^9}, 
    3.635263053572405*^9, {3.635263090545205*^9, 3.635263109811205*^9}, 
-   3.6352631514164047`*^9, 3.635263392475805*^9}]
+   3.6352631514164047`*^9, 3.635263392475805*^9, 3.640989521391696*^9, 
+   3.640989679284727*^9, 3.640989711397564*^9, 3.640989844051151*^9, {
+   3.64098993897058*^9, 3.6409899909475527`*^9}, {3.640990355460402*^9, 
+   3.6409903654229717`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -125,7 +144,8 @@ Cell[BoxData[
   3.6283044797845893`*^9, 3.6283046483896856`*^9, 3.62830476503209*^9, 
    3.628305394821797*^9, 3.635259280672505*^9, 3.6352601727675047`*^9, 
    3.6352630549452047`*^9, {3.635263091621605*^9, 3.635263109826805*^9}, 
-   3.6352631514164047`*^9, 3.635263392475805*^9}]
+   3.6352631514164047`*^9, 3.635263392475805*^9, 3.6409895227227716`*^9, 
+   3.6409896836659775`*^9, 3.640990365427972*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -151,7 +171,8 @@ Cell[BoxData[
    3.628303589146825*^9, 3.6283054004222064`*^9, 3.6283054732587347`*^9, 
    3.635259533928505*^9, 3.6352601749775047`*^9, 3.6352630561620045`*^9, {
    3.635263093727605*^9, 3.635263109826805*^9}, 3.6352631514164047`*^9, 
-   3.6352633924914045`*^9}]
+   3.6352633924914045`*^9, 3.6409895237118287`*^9, 3.640989686032113*^9, 
+   3.6409903654339724`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -172,7 +193,8 @@ Cell[BoxData[
  CellChangeTimes->{
   3.6283053966626*^9, 3.635259286075505*^9, 3.6352630577064047`*^9, {
    3.635263095178405*^9, 3.635263109826805*^9}, 3.635263151432005*^9, 
-   3.6352633924914045`*^9}]
+   3.6352633924914045`*^9, 3.6409895253669233`*^9, 3.6409896923504744`*^9, 
+   3.640990365439973*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -188,7 +210,8 @@ Cell[BoxData[
  RowBox[{"NaturalNumber", "[", "8", "]"}]], "Output",
  CellChangeTimes->{
   3.628305451418696*^9, 3.635263060374005*^9, {3.6352630972844048`*^9, 
-   3.635263109842405*^9}, 3.635263151432005*^9, 3.6352633924914045`*^9}]
+   3.635263109842405*^9}, 3.635263151432005*^9, 3.6352633924914045`*^9, 
+   3.640989526424984*^9, 3.6409896939105635`*^9, 3.640990365444973*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -204,13 +227,1097 @@ Cell[BoxData[
  RowBox[{"NaturalNumber", "[", "10000", "]"}]], "Output",
  CellChangeTimes->{{3.6283398877876625`*^9, 3.6283398980813527`*^9}, 
    3.635263062480005*^9, {3.6352630995308046`*^9, 3.635263110185605*^9}, 
-   3.635263151463205*^9, 3.635263392522605*^9}]
+   3.635263151463205*^9, 3.635263392522605*^9, 3.640989528163083*^9, 
+   3.640989696285699*^9, 3.6409903654839754`*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Test comparisons", "Section",
+ CellChangeTimes->{{3.640992211911585*^9, 3.6409922165378494`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"Ancestry", "[", 
+  RowBox[{"Successor", "[", "Zero", "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Ancestry", "[", 
+  RowBox[{"Successor", "[", 
+   RowBox[{"Successor", "[", "Zero", "]"}], "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.640991626265088*^9, 3.6409916297852893`*^9}, {
+  3.640991663416213*^9, 3.6409916774720163`*^9}, {3.6409921859661007`*^9, 
+  3.640992202000018*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "Zero", "}"}]], "Output",
+ CellChangeTimes->{
+  3.640991680050164*^9, 3.640991960920229*^9, {3.640992183005932*^9, 
+   3.6409922426443424`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "1", "]"}], ",", "Zero"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.640991680050164*^9, 3.640991960920229*^9, {3.640992183005932*^9, 
+   3.640992242645343*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GreaterThan", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "2", "]"}], ",", 
+   RowBox[{"NaturalNumber", "[", "2", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640992776335868*^9, 3.640992788551567*^9}, {
+  3.640992821251437*^9, 3.6409928676590915`*^9}}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{{3.6409927894386177`*^9, 3.640992816629173*^9}, {
+  3.6409928512191515`*^9, 3.640992868076115*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GreaterThan", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "3", "]"}], ",", 
+   RowBox[{"NaturalNumber", "[", "2", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6409946218234243`*^9, 3.640994623762535*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.640994624313566*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"GreaterThan", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "2", "]"}], ",", 
+   RowBox[{"NaturalNumber", "[", "3", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640994628626813*^9, 3.640994629576867*^9}}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.640994629892885*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Test negative numbers", "Section",
+ CellChangeTimes->{{3.6409946370822964`*^9, 3.6409946484239454`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["addition", "Subsection",
+ CellChangeTimes->{{3.6409946540912695`*^9, 3.6409946570144367`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "3", "]"}], ",", 
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "4", "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640994667518038*^9, 3.6409946707362213`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Opposite", "[", 
+  RowBox[{"NaturalNumber", "[", "1", "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.6409946729233465`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "3", "]"}], ",", 
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "1", "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6409947529779253`*^9, 3.640994756303116*^9}}],
+
+Cell[BoxData[
+ RowBox[{"NaturalNumber", "[", "2", "]"}]], "Output",
+ CellChangeTimes->{3.6409947571781654`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "3", "]"}], "]"}], ",", 
+   RowBox[{"NaturalNumber", "[", "4", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.64099468102381*^9, 3.6409946936365314`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"NaturalNumber", "[", "1", "]"}]], "Output",
+ CellChangeTimes->{3.640994694400575*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "5", "]"}], "]"}], ",", 
+   RowBox[{"NaturalNumber", "[", "4", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640994772089019*^9, 3.640994774617163*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Opposite", "[", 
+  RowBox[{"NaturalNumber", "[", "1", "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.640994777232313*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "3", "]"}], "]"}], ",", 
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "4", "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6409940050961494`*^9, 3.640994037055977*^9}, {
+  3.640994141904974*^9, 3.6409941588879457`*^9}, {3.640994289360408*^9, 
+  3.6409942956987705`*^9}, {3.640994572168584*^9, 3.640994594706873*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Opposite", "[", 
+  RowBox[{"NaturalNumber", "[", "7", "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.6409940377500167`*^9, 3.6409940954233155`*^9, 
+  3.640994144162103*^9, 3.640994216365233*^9, 3.6409942964308124`*^9, 
+  3.640994479231268*^9, 3.6409945970780087`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Add", "[", 
+  RowBox[{
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "7", "]"}], "]"}], ",", 
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "4", "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640994796299403*^9, 3.6409947973114614`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Opposite", "[", 
+  RowBox[{"NaturalNumber", "[", "11", "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.640994797676482*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Opposite", "[", 
+  RowBox[{"Opposite", "[", 
+   RowBox[{"NaturalNumber", "[", "1", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6409944861016607`*^9, 3.640994511045088*^9}}],
+
+Cell[BoxData[
+ RowBox[{"NaturalNumber", "[", "1", "]"}]], "Output",
+ CellChangeTimes->{3.6409945119091372`*^9, 3.640994565531204*^9, 
+  3.6409947083463726`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["multiplication", "Subsection",
+ CellChangeTimes->{{3.6409948094501553`*^9, 3.640994812547333*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multiply", "[", 
+  RowBox[{
+   RowBox[{"NaturalNumber", "[", "3", "]"}], ",", 
+   RowBox[{"Opposite", "[", 
+    RowBox[{"NaturalNumber", "[", "1", "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6409948230709343`*^9, 3.6409948255920787`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"$RecursionLimit", "::", "reclim2"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Recursion depth of \[NoBreak]\\!\\(1024\\)\[NoBreak] \
+exceeded during evaluation of \
+\[NoBreak]\\!\\(Multiply[\\(\\(\\(\\(NaturalNumber[3]\\)\\), \
+\\(\\(Predecessor[\\(\\(Predecessor[\\(\\(Predecessor[\\(\\(Predecessor[\\(\\(\
+Predecessor[\\(\\(Predecessor[\\(\\(Predecessor[\\(\\(\[LeftSkeleton] 1 \
+\[RightSkeleton]\\)\\)]\\)\\)]\\)\\)]\\)\\)]\\)\\)]\\)\\)]\\)\\)]\\)\\)\\)\\)]\
+\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6409948264921303`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Hold", "[", 
+  RowBox[{"Multiply", "[", 
+   RowBox[{
+    RowBox[{"NaturalNumber", "[", "3", "]"}], ",", 
+    RowBox[{"Predecessor", "[", 
+     RowBox[{"Predecessor", "[", 
+      RowBox[{"Predecessor", "[", 
+       RowBox[{"Predecessor", "[", 
+        RowBox[{"Predecessor", "[", 
+         RowBox[{"Predecessor", "[", 
+          RowBox[{"Predecessor", "[", 
+           RowBox[{"Predecessor", "[", 
+            RowBox[{"Predecessor", "[", 
+             RowBox[{"Predecessor", "[", 
+              RowBox[{"Predecessor", "[", 
+               RowBox[{"Predecessor", "[", 
+                RowBox[{"Predecessor", "[", 
+                 RowBox[{"Predecessor", "[", 
+                  RowBox[{"Predecessor", "[", 
+                   RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    RowBox[{"Predecessor", "[", 
+                    StyleBox[
+                    RowBox[{"MaxFormatDepthExceeded", 
+                    "MaxFormatDepthExceeded", "MaxFormatDepthExceeded", 
+                    "MaxFormatDepthExceeded"}],
+                    FontColor->RGBColor[1., 0., 0.]], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                    "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], 
+                "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}],
+        "]"}], "]"}], "]"}], "]"}], "]"}], 
+  "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], "]"}], \
+"]"}], "]"}], "]"}], "]"}], "]"}], "]"}]}], "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.6409948265191317`*^9}]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1680, 958},
-WindowMargins->{{111, Automatic}, {Automatic, -1059}},
+WindowMargins->{{111, Automatic}, {Automatic, 0}},
 ShowSelection->True,
-FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.1 for Microsoft Windows (64-bit) (May 3, 2015)",
 StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "C:", "Users", "pacoj", 
    "AppData", "Roaming", "Mathematica", "SystemFiles", "FrontEnd", 
    "StyleSheets"}, "Default_Paco.nb", CharacterEncoding -> "WindowsANSI"]
@@ -226,35 +1333,103 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[557, 20, 1208, 22, 81, "Input",
- InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1790, 46, 347, 8, 34, "Input"],
-Cell[2140, 56, 1589, 22, 34, "Output"]
+Cell[579, 22, 101, 1, 102, "Section"],
+Cell[683, 25, 1364, 24, 94, "Input",
+ InitializationCell->True]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3766, 83, 282, 6, 34, "Input"],
-Cell[4051, 91, 1022, 15, 34, "Output"]
+Cell[2084, 54, 110, 1, 102, "Section"],
+Cell[CellGroupData[{
+Cell[2219, 59, 347, 8, 39, "Input"],
+Cell[2569, 69, 1661, 23, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5110, 111, 350, 8, 34, "Input"],
-Cell[5463, 121, 355, 6, 34, "Output"]
+Cell[4267, 97, 408, 8, 39, "Input"],
+Cell[4678, 107, 1217, 18, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5855, 132, 338, 7, 34, "Input"],
-Cell[6196, 141, 780, 12, 34, "Output"]
+Cell[5932, 130, 350, 8, 39, "Input"],
+Cell[6285, 140, 429, 7, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7013, 158, 407, 9, 34, "Input"],
-Cell[7423, 169, 256, 5, 34, "Output"]
+Cell[6751, 152, 338, 7, 39, "Input"],
+Cell[7092, 161, 854, 13, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7716, 179, 241, 5, 34, "Input"],
-Cell[7960, 186, 232, 4, 34, "Output"]
+Cell[7983, 179, 407, 9, 39, "Input"],
+Cell[8393, 190, 330, 6, 38, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8229, 195, 242, 5, 34, "Input"],
-Cell[8474, 202, 263, 4, 34, "Output"]
+Cell[8760, 201, 241, 5, 39, "Input"],
+Cell[9004, 208, 304, 5, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9345, 218, 242, 5, 39, "Input"],
+Cell[9590, 225, 335, 5, 38, "Output"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9974, 236, 103, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[10102, 241, 410, 8, 67, "Input"],
+Cell[10515, 251, 172, 4, 38, "Output"],
+Cell[10690, 257, 234, 6, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10961, 268, 286, 6, 39, "Input"],
+Cell[11250, 276, 151, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11438, 283, 237, 5, 39, "Input"],
+Cell[11678, 290, 73, 1, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11788, 296, 235, 5, 39, "Input"],
+Cell[12026, 303, 74, 1, 38, "Output"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[12149, 310, 110, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[12284, 315, 100, 1, 57, "Subsection"],
+Cell[CellGroupData[{
+Cell[12409, 320, 266, 6, 39, "Input"],
+Cell[12678, 328, 146, 3, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12861, 336, 266, 6, 39, "Input"],
+Cell[13130, 344, 111, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13278, 351, 265, 6, 39, "Input"],
+Cell[13546, 359, 109, 2, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13692, 366, 264, 6, 39, "Input"],
+Cell[13959, 374, 144, 3, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14140, 382, 451, 9, 39, "Input"],
+Cell[14594, 393, 290, 5, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14921, 403, 303, 7, 39, "Input"],
+Cell[15227, 412, 145, 3, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15409, 420, 205, 4, 39, "Input"],
+Cell[15617, 426, 160, 3, 38, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15826, 435, 104, 1, 57, "Subsection"],
+Cell[CellGroupData[{
+Cell[15955, 440, 273, 6, 39, "Input"],
+Cell[16231, 448, 601, 12, 30, "Message"],
+Cell[16835, 462, 43524, 848, 4089, "Output"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
